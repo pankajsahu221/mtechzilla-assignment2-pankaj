@@ -1,0 +1,89 @@
+.home .card__container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 400px;
+  max-width: 100%;
+}
+
+.home .card__container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background-color: #eeeeee;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+.home .card__container .card .card__top {
+  display: flex;
+  gap: 20px;
+}
+.card__container .card .card__top .card__nu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card .card__top .card__nu .card__name {
+  font-weight: 400;
+  font-size: 18px;
+}
+.card .card__top .card__nu .card__username {
+  font-weight: 300;
+  font-size: 15.5px;
+}
+.card .card__top .card__nu .card__ff {
+  font-weight: 300;
+  font-size: 13.5px;
+}
+
+.home .card__container .card .card__profile {
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
+.card__container .card .card__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card__bottom .card__pg {
+  color: rgb(37, 37, 37);
+  font-weight: 300;
+  font-size: 13.5px;
+}
+
+.card__bottom .card__bio {
+  color: rgb(37, 37, 37);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.card__bottom .git__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 13px;
+  height: 40px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  margin-top: 10px;
+  border: 1px solid #000000;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.card__bottom .git__btn:hover {
+  transition: all 0.25s ease;
+  color: #000000;
+  background-color: transparent;
+}

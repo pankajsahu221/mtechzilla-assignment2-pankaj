@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 20px;
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+
+.home .search__form {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  max-width: 100%;
+  width: 400px;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+.home .search__form .search__form__inp,
+.home .search__form .search__form__btn {
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.home .search__form .search__form__inp {
+  flex: 0.9;
+  background: #f0f0f0;
+}
+.home .search__form .search__form__btn {
+  flex: 0.1;
+  color: #ffffff;
+  background: #000000;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.home .search__form .search__form__btn:hover {
+  color: #000000;
+  background-color: transparent;
+  transition: all 0.25s ease;
+}
